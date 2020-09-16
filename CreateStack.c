@@ -22,8 +22,7 @@ void push(struct stack *st, int data) // here we take 'st' as "Call by reference
     }
     else
     {   // with (++ prifix ) first we increse the top then we take the data in the stack:
-        st->top++;
-        st->S[st->top] = data;
+        st->S[++st->top] = data;
     }
 }
 // iterative display funtion:
