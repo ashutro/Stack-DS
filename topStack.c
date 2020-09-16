@@ -1,5 +1,5 @@
 /*
-    #Stack is Full:
+    #Stack top pointing:
 */
 #include<stdio.h>
 #include<stdlib.h>
