@@ -35,16 +35,7 @@ void display(struct stack st) // here we take 'st' as "Call by value" :
         printf("%d ",st.S[i]);
     }
 }
-void Rdisplay(struct stack st)  // here we take 'st' as "Call by value" :
-{
-    if(st.top == -1)
-        return;
-    else
-    {
-        printf("%d ",st.S);
-        Rdisplay(st);
-    }
-}
+
 int main()
 {
     int i, data;
