@@ -1,3 +1,4 @@
+// LINKED-LIST IMPLEMENTATION OF STACK
 #include<stdio.h>
 #include<stdlib.h>
 struct stack
